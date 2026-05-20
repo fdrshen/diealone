@@ -1,0 +1,15 @@
+# --- Core UI ---
+streamlit>=1.32.0
+pandas>=2.0.0
+
+# --- Fuzzy matching ---
+# thefuzz pakai rapidfuzz sebagai backend (cepat, tanpa dependency C-build)
+thefuzz>=0.22.1
+rapidfuzz>=3.6.0
+
+# --- Downloaders (jalan via subprocess; install agar binary tersedia di PATH) ---
+spotdl>=4.2.0
+yt-dlp>=2024.3.10
+
+# --- Optional: Spotify Web API (Tab 2 — sumber alternatif selain CSV) ---
+spotipy>=2.23.0
